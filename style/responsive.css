@@ -1,0 +1,23 @@
+@media screen and (max-width:400px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+    .container .section #sedan{
+        background-color: var(--sedan);
+        padding: 60px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .container .section #suv{
+        background-color: var(--suv);
+        padding: 60px;
+    }
+    .container .section #luxury{
+        background-color: var(--luxury);
+        padding: 60px;
+        border-radius: 0px 0px 10px 10px;
+        margin-bottom: 40px;
+    }
+}
